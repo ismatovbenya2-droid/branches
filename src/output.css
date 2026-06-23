@@ -384,6 +384,9 @@
   .h-\[330px\] {
     height: 330px;
   }
+  .h-\[350px\] {
+    height: 350px;
+  }
   .h-\[520px\] {
     height: 520px;
   }
@@ -692,6 +695,9 @@
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
   }
+  .py-10 {
+    padding-block: calc(var(--spacing) * 10);
+  }
   .py-12 {
     padding-block: calc(var(--spacing) * 12);
   }
@@ -745,6 +751,9 @@
   .text-\[35px\] {
     font-size: 35px;
   }
+  .text-\[38px\] {
+    font-size: 38px;
+  }
   .text-\[42px\] {
     font-size: 42px;
   }
@@ -762,6 +771,10 @@
   .leading-8 {
     --tw-leading: calc(var(--spacing) * 8);
     line-height: calc(var(--spacing) * 8);
+  }
+  .leading-9 {
+    --tw-leading: calc(var(--spacing) * 9);
+    line-height: calc(var(--spacing) * 9);
   }
   .leading-\[1\.1\] {
     --tw-leading: 1.1;
@@ -1076,6 +1089,16 @@
       padding-inline: calc(var(--spacing) * 14);
     }
   }
+  .lg\:px-16 {
+    @media (width >= 64rem) {
+      padding-inline: calc(var(--spacing) * 16);
+    }
+  }
+  .lg\:py-16 {
+    @media (width >= 64rem) {
+      padding-block: calc(var(--spacing) * 16);
+    }
+  }
   .lg\:text-2xl {
     @media (width >= 64rem) {
       font-size: var(--text-2xl);
@@ -1108,6 +1131,11 @@
   .lg\:text-\[52px\] {
     @media (width >= 64rem) {
       font-size: 52px;
+    }
+  }
+  .lg\:text-\[60px\] {
+    @media (width >= 64rem) {
+      font-size: 60px;
     }
   }
   .lg\:text-\[70px\] {
