@@ -8,110 +8,122 @@
 </head>
 <body>
 
-    <header class="max-w-[1200px] mx-auto px-4 py-8">
-  <div class="flex items-center justify-between">
+   <header class="w-full bg-white px-8 py-5 flex items-center justify-between shadow-sm font-sans sticky top-0 z-50">
+    <a href="#" class="lg:block hidden">
+    </a>
 
-    <div>
-      <img src="./images/logo.png" alt="">
-    </div>
+    <ul class="hidden md:flex items-center gap-10 text-gray-700 font-medium">
+        <li><a href="#" class="hover:text-[#2ba873] transition-colors">Booking</a></li>
+        <li><a href="./src/page2.html" class="border-b-3 pb-2 border-[#2ba873] text-[#2ba873]">Facilities</a></li>
+        <li><a href="#" class="hover:text-[#2ba873] transition-colors">About Us</a></li>
+        <li><a href="#" class="hover:text-[#2ba873] transition-colors">Location</a></li>
+        <li><a href="#" class="hover:text-[#2ba873] transition-colors">Contact</a></li>
+    </ul>
 
-    <nav class="hidden md:flex items-center gap-12">
-      <a href="#">Booking</a>
-      <a href="./src/page2.html">Facilities</a>
-      <a href="#">About Us</a>
-      <a href="#">Location</a>
-      <a href="#">Contact</a>
-    </nav>
-
-    <button class="bg-[#2DB36A] text-white px-8 py-3 rounded-full">
-      Login
-    </button>
-
-  </div>
-</header>
-    <section class="max-w-[1200px] mx-auto mt-10 px-4">
-  <div class="relative flex flex-col lg:flex-row overflow-hidden rounded-[40px]">
-
-    <div class="bg-[#F3FAF7] w-full lg:w-1/2 p-8 lg:p-14 flex flex-col justify-center">
-      <h1 class="text-5xl lg:text-7xl font-medium leading-tight text-black">
-        Find your perfect
-        <br>
-        place to stay
-      </h1>
-
-      <p class="text-gray-500 text-lg mt-8 max-w-md">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      </p>
-
-      <div class="flex items-center gap-4 mt-12">
-        <button class="w-12 h-12 rounded-full bg-white flex items-center justify-center shadow">
-          <img src="./img/2.png" alt="">
+    <div class="flex items-center gap-50">
+        <button class="bg-[#2ba873] text-white px-8 py-2.5 rounded-full font-medium hover:bg-[#238c60] transition-colors">
+            Login
         </button>
-
-        <span class="text-2xl font-medium">
-          Watch video
-        </span>
-      </div>
+        <button class="md:hidden text-gray-700">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </button>
     </div>
+</header>
 
-    <div class="w-full lg:w-1/2">
-      <img
-        src="./img/1.png"
-        alt=""
-        class="w-full h-full object-cover"
-      >
+<section class="max-w-[1200px] mx-auto px-4 pb-24 mt-10" >
+    <div class="relative rounded-[40px] overflow-hidden">
+
+        <div class="flex flex-col lg:flex-row">
+
+            <div class="w-full lg:w-1/2 bg-[#F4FAF8] p-8 lg:p-16 flex flex-col justify-center">
+
+                <h1 class="text-[45px] lg:text-[70px] leading-[1.1] font-medium">
+                    Find your perfect place to stay
+                </h1>
+
+                <p class="text-gray-500 mt-8 max-w-[420px] text-lg">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.
+                </p>
+
+                <div class="flex items-center gap-4 mt-12">
+
+                    <button class="w-14 h-14 rounded-full bg-white flex justify-center items-center">
+                        <img src="./img/2.png" alt="">
+                    </button>
+
+                    <p class="text-2xl">
+                        Watch video
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="w-full lg:w-1/2">
+                <img
+                    src="./img/1.png"
+                    alt=""
+                    class="w-full h-full object-cover"
+                >
+            </div>
+
+        </div>
+
+        <div class="bg-white rounded-[40px] shadow-lg lg:absolute lg:bottom-8 lg:left-1/2 lg:-translate-x-1/2 flex flex-col lg:flex-row overflow-hidden w-full lg:w-[900px]">
+
+            <div class="flex-1 p-6 border-b lg:border-r">
+                <div class="flex gap-3 items-center">
+                    <img src="./img/9.png" alt="">
+                    <h3 class="text-xl">Location</h3>
+                </div>
+
+                <p class="text-gray-500 mt-2">
+                    United States
+                </p>
+            </div>
+
+            <div class="flex-1 p-6 border-b lg:border-r">
+                <div class="flex gap-3 items-center">
+                    <img src="./img/10.png" alt="">
+                    <h3 class="text-xl">Check in</h3>
+                </div>
+
+                <p class="text-gray-500 mt-2">
+                    10 Jun 2021
+                </p>
+            </div>
+
+            <div class="flex-1 p-6 border-b lg:border-r">
+                <div class="flex gap-3 items-center">
+                    <img src="./img/10.png" alt="">
+                    <h3 class="text-xl">Check out</h3>
+                </div>
+
+                <p class="text-gray-500 mt-2">
+                    15 Jun 2021
+                </p>
+            </div>
+
+            <div class="flex-1 p-6">
+                <div class="flex gap-3 items-center">
+                    <img src="./img/11.png" alt="">
+                    <h3 class="text-xl">Rooms for</h3>
+                </div>
+
+                <p class="text-gray-500 mt-2">
+                    1 room, 2 guests
+                </p>
+            </div>
+
+            <button class="bg-[#2DB36A] text-white px-12 py-6 flex items-center justify-center gap-3">
+                <img src="./images/search.png" alt="">
+                Search...
+            </button>
+
+        </div>
+
     </div>
-
-    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 bg-white rounded-[50px] shadow-lg flex items-center overflow-hidden w-[90%] max-w-[900px]">
-
-      <div class="flex-1 px-6 py-5 border-r">
-        <div class="flex items-center gap-2">
-          <img src="./images/location.png" alt="">
-          <h3 class="font-medium text-xl">Location</h3>
-        </div>
-        <p class="text-gray-500 text-sm mt-1">
-          United States
-        </p>
-      </div>
-
-      <div class="flex-1 px-6 py-5 border-r">
-        <div class="flex items-center gap-2">
-          <img src="./images/calendar.png" alt="">
-          <h3 class="font-medium text-xl">Check in</h3>
-        </div>
-        <p class="text-gray-500 text-sm mt-1">
-          10 Jun 2021
-        </p>
-      </div>
-
-      <div class="flex-1 px-6 py-5 border-r">
-        <div class="flex items-center gap-2">
-          <img src="./images/calendar.png" alt="">
-          <h3 class="font-medium text-xl">Check out</h3>
-        </div>
-        <p class="text-gray-500 text-sm mt-1">
-          15 Jun 2021
-        </p>
-      </div>
-
-      <div class="flex-1 px-6 py-5">
-        <div class="flex items-center gap-2">
-          <img src="./images/user.png" alt="">
-          <h3 class="font-medium text-xl">Rooms for</h3>
-        </div>
-        <p class="text-gray-500 text-sm mt-1">
-          1 room, 2 guests
-        </p>
-      </div>
-
-      <button class="bg-[#2DB36A] text-white px-12 py-8 flex items-center gap-3 text-xl font-medium">
-        <img src="./images/search.png" alt="">
-        Search...
-      </button>
-
-    </div>
-
-  </div>
 </section>
 </body>
 </html>
